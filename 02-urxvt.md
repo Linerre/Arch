@@ -10,6 +10,15 @@ If I decide to use `~/.Xresources`, I'll modify my `~/.xinitrc` to automatically
 
 ## Configurations
 
+### First things first
+In terms of specific configurations, I first need to get myself familar with the **syntax** of X resources. Both [Arch Wiki](https://wiki.archlinux.org/index.php/X_resources#Xresources_syntax) and [Gentoo Wiki](https://wiki.gentoo.org/wiki/X_resources#Syntax) provide detailed instructions on this topic. 
+
+Once having a bit of understanding of how it works, I can learn from others' ricing examples. One way, of course, is seraching through GitHub because a lot of people have already shared their `dotfile`s. 
+
+Here are two more examples I found also helpful:
+1. [Config settings of urxvt, make it looks better!](https://ultra-technology.org/software_settings/config-settings-urxvt/)
+2. [Configuring URxvt to Make It Usable and Less Ugly](https://addy-dclxvi.github.io/post/configuring-urxvt/)
+
 ### Transparancy
 According to [Arch Wiki](https://wiki.archlinux.org/index.php/Rxvt-unicode/Tips_and_tricks#Transparency):
 >To use true transparency, you need to be using a window manager that supports compositing or a separate compositor.
@@ -39,10 +48,3 @@ However, I came to realize it is indeed a very old method and should be replaced
 
 **This syntax simply does not work. I cannot use `base00` after the defination.** I guess it may work in `.Xresources`. 
 
-In terms of specific configurations, I first need to get myself familar with the **syntax** of X resources. Both [Arch Wiki](https://wiki.archlinux.org/index.php/X_resources#Xresources_syntax) and [Gentoo Wiki](https://wiki.gentoo.org/wiki/X_resources#Syntax) provide detailed instructions on this topic. 
-
-Once having a bit of understanding of how it works, I can learn from others' ricing examples. One way, of course, is seraching through GitHub because a lot of people have already shared their `dotfile`s. 
-
-Here are two more examples I found also helpful:
-1. [Config settings of urxvt, make it looks better!](https://ultra-technology.org/software_settings/config-settings-urxvt/)
-2. [Configuring URxvt to Make It Usable and Less Ugly](https://addy-dclxvi.github.io/post/configuring-urxvt/)
