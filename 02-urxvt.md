@@ -31,7 +31,13 @@ Also add this line into `.xinitrc` above the `exec i3`:
 ```~/.fehbg &```
 
 ### Colorscheme
-[] Put here how to set the colorscheme using base16.
+I have searched and read some online docs as well as others' example files. Since `.Xdefaults` is simpler for me as a newbie I just chose to use it at the beginning.
+
+However, I came to realize it is indeed a very old method and should be replaced with `.Xresources`. So my strategy is to configure urxvt first with `.Xdefaults` and them transfer all the settings to `.Xresrouces`. When trying to set the color scheme I found:
+
+`#define base00 #181818`
+
+**This syntax simply does not work. I cannot use `base00` after the defination.** I guess it may work in `.Xresources`. 
 
 In terms of specific configurations, I first need to get myself familar with the **syntax** of X resources. Both [Arch Wiki](https://wiki.archlinux.org/index.php/X_resources#Xresources_syntax) and [Gentoo Wiki](https://wiki.gentoo.org/wiki/X_resources#Syntax) provide detailed instructions on this topic. 
 
