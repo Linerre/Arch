@@ -6,7 +6,7 @@ I will take down the important steps during installing Arch Linux in this repo, 
 5. Learning `pacman`
 6. Re-partitioning my hard drive so to:
   - move `/home` to another drive
-  - delete `sawp`?
+  - delete and or resize the `sawp` partition?
   - enlarge `/boot` (from 300MB to 1GB?)
  
 ...
