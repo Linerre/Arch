@@ -23,7 +23,7 @@ When I got the X220, installed Arch again, I felt more comfortable with adding a
 
 After about 1 hour of searching, I found [this approach](https://bbs.archlinux.org/viewtopic.php?pid=1697227#p1697227) from Arch Forum really works:
 
->1. read
+1. read
 https://wiki.archlinux.org/index.php/intel_graphics
 
 2. install
