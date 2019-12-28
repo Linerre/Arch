@@ -1,7 +1,7 @@
 # Xorg
-**Xorg** is basically an implementation of **X Windows System**, usually referred to as **X**. But do not get it wrong:
-1. It is *Not* a Desktop Environment (DE, for example, GNOME, KDE) or an Operating System (say Windows, macOS). 
-2. Rather, it is the very system that controls your input devices such as the keyborad & mourse and output device such as the screen.
+**Xorg** is basically an implementation of **X Windows System**, usually referred to as **X**. But do not get it confused about its name:
+1. It is *neither* a Desktop Environment (DE, for example, GNOME, KDE) *nor* an Operating System (say Windows, macOS). 
+2. Instead, it is the very system that controls your input devices such as the keyborad & mourse and output device such as the screen.
 
 ## Pre-Xorg
 When X is not started, a user is in a **Console** after login: only white-color text can be typed onto the black-background screen as commands, and the machine may or may not output text to the screen depending on what commands the user uses. Yeap, very like a **Terminal Emulator** in full-screen mode, but it is not. And in this situation a mouse cursor will *NOT* be supported. The reason is very simple: A mouse is a type of input device that needs support from X-server, see [this great illustration](https://en.wikibooks.org/wiki/Guide_to_X11/Introduction#/media/File:X_client_server_example.svg). So next step is to start X if the user wants to fully employ their common input devices such as keyboard, mouse, screen (full-color).
@@ -17,9 +17,30 @@ Two common, mutually exclusive methods:
 #### Background
 I met this problem because I bought two Thinkpads at a time: X220 and X230. I tried to install Arch for the first time on X230 since it had been delivered earlier than X220.
 
-As a newbie unfamiliar with `useradd` and `groupadd` commands, I was thinking that I could just experience and learn as the `root` user and then smoothly transfer all the configs to a user I would later create.
+As a newbie, unfamiliar with `useradd` and `groupadd` commands, I was thinking that I could just experience and learn as the `root` user and then smoothly transfer all the configs to a user I would later create.
 
-When I got the X220, installed Arch again, I felt more comfortable with 
+When I got the X220, installed Arch again, I felt more comfortable with adding and using the normal user account I created. Then next step would be get everything I have on X230 as a `root` user, the wallpaper, the urxvt, the i3-gaps wm and so on, set up exactly the same on X220. Yet the first very problem was **I could not start X by `startx` as the user**. 
+
+After about 1 hour of searching, I found [this approach](https://bbs.archlinux.org/viewtopic.php?pid=1697227#p1697227) from Arch Forum really works:
+
+>1. read
+https://wiki.archlinux.org/index.php/intel_graphics
+
+2. install
+
+`pacman -Syu xf86-video-intel`
+
+3. create the conf file: /etc/X11/xorg.conf.d/20-intel.conf
+
+```Section "Device"
+   Identifier  "Intel Graphics"
+   Driver      "intel"
+EndSection
+```
+
+4. reboot
+
+5. `startx` is ok
 
 ### Display Manager
 It is the Graphical User Interface I have been seeing for years in Windows OS, macOS, and some GNU/Linux distros (Ubuntu, Mint, Debian, Manjaro, etc). 
