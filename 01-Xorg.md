@@ -21,6 +21,7 @@ As a newbie, unfamiliar with `useradd` and `groupadd` commands, I was thinking t
 
 When I got the X220, installed Arch again, I felt more comfortable with adding and using the normal user account I created. Then next step would be get everything I have on X230 as a `root` user, the wallpaper, the urxvt, the i3-gaps wm and so on, set up exactly the same on X220. Yet the first very problem was **I could not start X by `startx` as the user**. 
 
+#### Solution
 After about 1 hour of searching, I found [this approach](https://bbs.archlinux.org/viewtopic.php?pid=1697227#p1697227) from Arch Forum really works:
 
 1. read
@@ -32,7 +33,8 @@ https://wiki.archlinux.org/index.php/intel_graphics
 
 3. create the conf file: /etc/X11/xorg.conf.d/20-intel.conf
 
-```Section "Device"
+```
+Section "Device"
    Identifier  "Intel Graphics"
    Driver      "intel"
 EndSection
@@ -41,6 +43,18 @@ EndSection
 4. reboot
 
 5. `startx` is ok
+
+#### Comment
+I have not yet fully understood how this works, since On X230, as `root` user, I have not installed the `xf86-video-intel` driver.
+My guess is, based error messages, that config files in `/etc/X11/xorg.conf.d` and `/usr/share/X11/xorg.conf.d` matter:
+
+1. When login as `root`, it seems the system uses one of the following two files in `/usr/share/X11/xorg.conf.d`:
+   - a. 10-quirks.conf
+   - b. 40-libinput.conf
+
+2. When as a normal user, since at first there is nothing under the `/etc/X11/xorg.conf`, I have to create one according to the driver installed. 
+
+Hope I can understand this better and more accurately in the future.
 
 ### Display Manager
 It is the Graphical User Interface I have been seeing for years in Windows OS, macOS, and some GNU/Linux distros (Ubuntu, Mint, Debian, Manjaro, etc). 
