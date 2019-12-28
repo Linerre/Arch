@@ -34,10 +34,20 @@ To set up Picom properly, two steps are necessary:
 This just means when i3 starts up, executating picom with the `picom.conf` file.
 
 ### Wallpaper
+
 Use **Feh** by following Arch Wiki.
 Also add this line into `.xinitrc` above the `exec i3`:
 
 ```~/.fehbg &```
+
+To let the wallpaper take effective, run this command in terminal:
+
+`$ feh --bg-scale /path/to/image.file`
+
+**Note**
+
+When I tried to copy my old conf to my new PC and forgot to run this command, even though I got all settings in the right conf files and all such files in the right place, nothing happened. But after I run the command, the wallpaper worked like a charm.
+
 
 ### Colorscheme
 I have searched and read some online docs as well as others' example files. Since `.Xdefaults` is simpler for me as a newbie I just chose to use it at the beginning.
