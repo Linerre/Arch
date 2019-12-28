@@ -61,7 +61,7 @@ It is the Graphical User Interface I have been seeing for years in Windows OS, m
 *Note*: At this very moment, the Display Manager is started but X is still **to be started**.
 If I log in (typing in my username and password), the DM will start X. 
 
-## Which way I should choose?
+### Which way I should choose?
 Either will be fine. It's more of a matter of personal preference.
 I use `startx` because I like console and WM. 
 For more information about starting X, see [here](https://en.wikibooks.org/wiki/Guide_to_X11/Starting_Sessions).
