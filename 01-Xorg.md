@@ -54,7 +54,10 @@ My guess is, based error messages, that config files in `/etc/X11/xorg.conf.d` a
 
 2. When as a normal user, since at first there is nothing under the `/etc/X11/xorg.conf`, I have to create one according to the driver installed. 
 
-Hope I can understand this better and more accurately in the future.
+To better understand this:
+1. Read [configuration](https://wiki.archlinux.org/index.php/Xorg#Configuration) section of Xorg on Arch Wiki;
+2. Then read the [Xorg configuration](https://wiki.archlinux.org/index.php/intel_graphics#Xorg_configuration) section on Arch Wiki.
+3. Xorg is alreay rootless according to [this Arch news](https://www.archlinux.org/news/xorg-server-116-is-now-available/).
 
 ### Display Manager
 It is the Graphical User Interface I have been seeing for years in Windows OS, macOS, and some GNU/Linux distros (Ubuntu, Mint, Debian, Manjaro, etc). 
