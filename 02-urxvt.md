@@ -46,8 +46,9 @@ To let the wallpaper take effective, run this command in terminal:
 
 **Note**
 
-When I tried to copy my old conf to my new PC and forgot to run this command, even though I got all settings in the right conf files and all such files in the right place, nothing happened. But after I run the command, the wallpaper worked like a charm.
+The `~/.fehbg` is solely for wallpaper-setting purposes. And it should always be in the home dir or at least a soft link to it with the same should be in the home dir. 
 
+To config feh, refer to its official site and put the three conf files (i.e. *theme*, *keys*, *buttons* in your $XDG_CONFIG_HOME, which is usually `~/.config`) 
 
 ### Colorscheme
 I have searched and read some online docs as well as others' example files. Since `.Xdefaults` is simpler for me as a newbie I just chose to use it at the beginning.
