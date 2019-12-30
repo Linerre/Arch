@@ -1,6 +1,5 @@
 #!/bin/sh
 
-[[ -f ~/.Xresources ]] && xrdb -merge I$HOME ~/.Xresources
-
+[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 ~/.fehbg & 
 exec i3
