@@ -12,4 +12,4 @@ alias v="vim"
 alias pm="sudo pacman"
 alias dark="xbacklight -dec"
 alias shin="xbacklight -inc"
-
+alias grep="grep --color=auto"
