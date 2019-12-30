@@ -10,13 +10,14 @@ export XDG_CONFIG_HOME=/home/leon/.config
 
 
 # alias
-alias ls="tree -hCL 2"
+alias lt="tree -hCL 2"
+alias ls="ls -alh --color"
 alias v="vim"
 alias pm="sudo pacman"
 
 
 
 
-if systectl -q is-active graphical.target && [[ ! $DISPLAY && DG_VTNR -eq 1 ]]; then
+if systemctl -q is-active graphical.target && [[ ! $DISPLAY && DG_VTNR -eq 1 ]]; then
 	startx
 fi
