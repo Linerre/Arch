@@ -64,8 +64,8 @@ EndSection
 ~~I have not yet fully understood how this works, since On X230, as `root` user, I have not installed the `xf86-video-intel` driver.
 My guess is, based error messages, that config files in `/etc/X11/xorg.conf.d` and `/usr/share/X11/xorg.conf.d` matter:~~
 
-~~1. When login as `root`, it seems the system uses one of the following two files in `/usr/share/X11/xorg.conf.d`:
-   - a. 10-quirks.conf~~
+~~1. When login as `root`, it seems the system uses one of the following two files in `/usr/share/X11/xorg.conf.d`:~~
+   ~~- a. 10-quirks.conf~~
    ~~- b. 40-libinput.conf~~
 
 ~~2. When as a normal user, since at first there is nothing under the `/etc/X11/xorg.conf`, I have to create one according to the driver installed.~~
