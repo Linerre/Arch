@@ -1,0 +1,81 @@
+! General
+Urxvt.saveLines: 1000
+URxvt*scrollTtyOutput:  false
+URxvt.scrollBar:        false
+URxvt.cursorBlink:      false
+URxvt.scrollWithBuffer: true
+
+! Colorscheme
+! the '#define' sytax seems not working in Xdefaults
+! Picked from Base16 Official Site:
+!#define base00 #181818
+!#define base01 #282828
+!#define base02 #383838
+!#define base03 #585858
+!#define base04 #b8b8b8
+!#define base05 #d8d8d8
+!#define base06 #e8e8e8
+!#define base07 #f8f8f8
+!#define base08 #ab4642
+!#define base09 #dc9656
+!#define base0A #f7ca88
+!#define base0B #a1b56c
+!#define base0C #86c1b9
+!#define base0D #7cafc2
+!#define base0E #ba8baf
+!#define base0F #a16946
+
+
+
+! special
+*foreground: #d8d8d8
+!URxvt.depth: 32
+*background: #181818
+*cursorColor: #ab4642
+
+! black
+*color0: #181818
+*color8: #282828
+
+! red
+*.color1: #ab4642
+*.color9: #a8120d
+
+! green
+*.color2:  #a1b56c
+*.color10: #8bd717
+
+! yellow
+*color3:  #f7ca88
+*color11: #f2bb3a
+
+! blue
+*color4:  #7cafc2
+*color12: #0da8e0
+
+! Magenta
+*color5:  #ba8baf
+*color13: #b756a0
+
+! cyan
+*color6:  #86c1b9
+*color14: #34bcaa
+
+! white
+*color7:  #d8d8d8
+*color15: #f8f8f8
+
+
+
+! Font Settings
+URxvt.font: xft:Hack:size=9:style=Regular
+URxvt.boldFont: xft:Hack:style=Bold
+URxvt.ItalicFont: xft:Have:style=Bold Italic
+URxvt.letterSpace: -1
+
+
+
+! X system
+Xft.dpi: 96
+Xft.antialias: true
+
