@@ -31,7 +31,7 @@ URxvt.scrollWithBuffer: true
 *foreground: #d8d8d8
 !URxvt.depth: 32
 *background: #181818
-*cursorColor: #ab4642
+*cursorColor: #0da8e0
 
 ! black
 *color0: #181818
