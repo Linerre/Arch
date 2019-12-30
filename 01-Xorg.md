@@ -1,5 +1,5 @@
 # Xorg
-**Xorg** is basically an implementation of **X Windows System**, usually referred to as **X**. But do not get it confused about its name:
+**Xorg** is basically an implementation of **X Window System**, usually referred to as **X**. But do not get it confused about its name:
 1. It is *neither* a Desktop Environment (DE, for example, GNOME, KDE) *nor* an Operating System (say Windows, macOS). 
 2. Instead, it is the very system that controls your input devices such as the keyborad & mourse and output device such as the screen.
 
@@ -44,15 +44,31 @@ EndSection
 
 5. `startx` is ok
 
+#### Brightness
+Without any configuration, the brightness of the screen would be sth like 4778 which could be fairly dazzling expecially when light-background software is running in the night. For example, try the zero-config firefox in a dark room.
+
+Arch Wiki provides all that is needed to adjust brightness properly. In particular:
+
+1. Adjust as root user by [`intel_backlight`](https://wiki.archlinux.org/index.php/Backlight#ACPI)
+2. Use one of the utilities [listed](https://wiki.archlinux.org/index.php/Backlight#Backlight_utilities). `xbacklight`, for instance. The *Section* file mentioned above needs some slight modifying:
+
+```
+Section "Device"
+   ...
+   ...
+   Option ...
+EndSection
+```
+
 #### Comment
-I have not yet fully understood how this works, since On X230, as `root` user, I have not installed the `xf86-video-intel` driver.
-My guess is, based error messages, that config files in `/etc/X11/xorg.conf.d` and `/usr/share/X11/xorg.conf.d` matter:
+~~I have not yet fully understood how this works, since On X230, as `root` user, I have not installed the `xf86-video-intel` driver.
+My guess is, based error messages, that config files in `/etc/X11/xorg.conf.d` and `/usr/share/X11/xorg.conf.d` matter:~~
 
-1. When login as `root`, it seems the system uses one of the following two files in `/usr/share/X11/xorg.conf.d`:
-   - a. 10-quirks.conf
-   - b. 40-libinput.conf
+~~1. When login as `root`, it seems the system uses one of the following two files in `/usr/share/X11/xorg.conf.d`:
+   - a. 10-quirks.conf~~
+   ~~- b. 40-libinput.conf~~
 
-2. When as a normal user, since at first there is nothing under the `/etc/X11/xorg.conf`, I have to create one according to the driver installed. 
+~~2. When as a normal user, since at first there is nothing under the `/etc/X11/xorg.conf`, I have to create one according to the driver installed.~~
 
 To better understand this:
 1. Read [configuration](https://wiki.archlinux.org/index.php/Xorg#Configuration) section of Xorg on Arch Wiki;
