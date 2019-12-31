@@ -6,7 +6,7 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 4. [i3-gaps](https://github.com/Linerre/Arch/blob/master/Notes/03-i3wm.md)
 5. [network](https://github.com/Linerre/Arch/blob/master/Notes/04-network.md)
 6. [fonts](https://github.com/Linerre/Arch/blob/master/Notes/05-fonts.md)
-7. [re-partioning](https://github.com/Linerre/Arch/blob/master/Notes/07-repartioning.md)
+7. [partitioning](https://github.com/Linerre/Arch/blob/master/Notes/06-partitioning.md)
 (to be continued)
 
 ## obsolete content
