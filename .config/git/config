@@ -1,3 +1,10 @@
 [user]
 	name = Linerre
 	email = leon.errelin@outlook.com
+[alias]
+	cm = commit
+	ch = checkout
+	br = branch
+	st = status
+	sw = switch
+	last = log -1 HEAD
