@@ -12,12 +12,14 @@ Luke partitioned (divided) the drive into four parts:
 4. /home  (the `home` dir)
 Therefore, the single disk would visually be like:
 
-================   ================  ================  ================   ================
+```
+================  ================  ================   ================   ================
 
     `/`                `swap`           `/boot`            `/home`             2nd SSD
 (on 1st SSD)         (on 1st SSD)      on 1st SSD         on 1st SSD           (empty)
 
 ================  ================   ================  ================   ================
+```
 
 ## Reason for changes
 While this partition plan worked pretty well, I wanted to change after installing. My situation is different from Luke's in that my Thinkpad has **two** SSDs. Therefore, it would be great if I could make my `/home` dir set on another drive so that I will not need to worry about the space issue as I amass more stuff. 
@@ -25,12 +27,14 @@ While this partition plan worked pretty well, I wanted to change after installin
 Besides, I have 16GB RAM, so there is really no need for the swap partition, which was, well stupidly, 16GB! Trust me, the rule of thumb saying that about 1.5 or 2 times the RAM is needed for swap is rather obsolete and should be safely ignored given the fact that nowadays laptops usally come with 8GB RAM. Even you just have a RAM of 4GB, you don't need that much of swap. 4GB RAM plus 4GB swap would be sufficient. 
 
 So my plan was to re-partition the drive into sth like:
+```
 -----------  -----------  ---------------------- 
 
      /         /boot             /homm
   1st SSD     1st SSD           2nd SSD
 
 -----------  -----------  ---------------------- 
+```
 
 Clearly, I need to make three changes:
 1. delete the swap partition
@@ -39,10 +43,13 @@ Clearly, I need to make three changes:
 
 ## Difficulties
 Well, to delete the swap partition is very easy: `parted` alone can do that. But `parted` can only move the end of a partition, meaning I could only change my origial partition layout in this way:
-
+```
 -----------   -------------  -------------  -------------   -----------
 
-     /         ~~`swap`~~          /boot          /home           2nd SSD
-(on 1st SSD) ~~(on 1st SSD)~~     on 1st SSD     on 1st SSD       (empty)
+     /          Not used         /boot        Not used         /home
+  1st SSD       1st SSD         1st SSD                       2nd SSD
 
 -----------  -------------   -------------  -------------   -----------
+
+And the / and /boot can be enlarged only towards right, i.e. moving theird ends.
+```
