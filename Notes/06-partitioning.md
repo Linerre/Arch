@@ -12,12 +12,12 @@ Luke partitioned (divided) the drive into four parts:
 4. /home  (the `home` dir)
 Therefore, the single disk would visually be like:
 
------------   -------------  -------------  -------------   -----------
+================   ================  ================  ================   ================
 
-    `/`          `swap`        `/boot`         `/home`           2nd SSD
-(on 1st SSD) (on 1st SSD)     on 1st SSD     on 1st SSD       (empty)
+    `/`                `swap`           `/boot`            `/home`             2nd SSD
+(on 1st SSD)         (on 1st SSD)      on 1st SSD         on 1st SSD           (empty)
 
------------  -------------   -------------  -------------   -----------
+================  ================   ================  ================   ================
 
 ## Reason for changes
 While this partition plan worked pretty well, I wanted to change after installing. My situation is different from Luke's in that my Thinkpad has **two** SSDs. Therefore, it would be great if I could make my `/home` dir set on another drive so that I will not need to worry about the space issue as I amass more stuff. 
