@@ -8,3 +8,5 @@
 	st = status
 	sw = switch
 	last = log -1 HEAD
+	ps = push
+	pl = pull
