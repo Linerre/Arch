@@ -8,7 +8,8 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 6. [fonts](https://github.com/Linerre/Arch/blob/master/Notes/05-fonts.md)
 7. [partitioning](https://github.com/Linerre/Arch/blob/master/Notes/06-partitioning.md)
 (to be continued)
-*Somehow neofetch does not work properly when I try to use w3m to get a image displayed*. 
+- *Somehow neofetch does not work properly when I try to use w3m to get a image displayed*. 
+- brightness adjusting
 
 ## obsolete content
 I will take down the important steps during installing Arch Linux in this repo, such as:
