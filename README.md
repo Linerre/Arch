@@ -10,6 +10,7 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 (to be continued)
 - *Somehow neofetch does not work properly when I try to use w3m to get a image displayed*. 
 - brightness adjusting
+- Bash config and study
 
 ## obsolete content
 I will take down the important steps during installing Arch Linux in this repo, such as:
