@@ -68,10 +68,16 @@ URxvt.scrollWithBuffer: true
 
 
 ! Font Settings
-URxvt.font: xft:Hack:size=9:style=Regular
-URxvt.boldFont: xft:Hack:style=Bold
-URxvt.ItalicFont: xft:Have:style=Bold Italic
-URxvt.letterSpace: -1
+URxvt.font: xft:InputMono Light:size=9:style=Light,Regular
+!URxvt.boldFont: xft:Input Mono:style=Bold Italic
+!URxvt.italicfont: xft:InputMono Light:style=Light Italic,Italic
+
+!URxvt.font: xft:Hack:size=9:style=Regular
+!URxvt.boldFont: xft:Hack:style=Bold
+!URxvt.ItalicFont: xft:Have:style=Bold Italic
+! -1 works fine with Hack
+!URxvt.letterSpace: -1
+URxvt.letterSpace: 0 
 
 
 
