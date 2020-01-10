@@ -15,7 +15,8 @@ PS1="$LW$USERNAME$SEP$MACHINE $CWD$RW\$ "
 
 # alias
 alias lt="tree -hCL 2"
-alias ls="ls -alh --color"
+alias ls="ls --color"
+alias ll="ls -alh --color"
 alias v="vim"
 alias pm="sudo pacman"
 alias dark="xbacklight -dec"
