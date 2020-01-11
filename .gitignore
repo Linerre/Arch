@@ -1,0 +1,2 @@
+# ignore all the xorg log files in .local/share/xorg/* 
+.local/share/xorg/
