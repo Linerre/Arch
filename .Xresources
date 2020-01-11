@@ -78,6 +78,6 @@ URxvt.letterSpace: -1
 
 
 ! X system
-Xft.dpi: 96
+Xft.dpi: 102
 Xft.antialias: true
 
