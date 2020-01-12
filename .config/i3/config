@@ -187,16 +187,17 @@ bar {
 	i3bar_command i3bar --transparency
 	position	top
 	colors {
-	  background #434C5EB3
+	  background #6272A4B3
 	  statusline #E5E9F0
+	  separator  #8BE9FD
 	}
-	font pango:Hack 8
+	font pango:Hack 9 
 }
 # My own config goes from here:
 # To disable window title bars so to use gaps:
 for_window [class=".*"] border pixel 2
 gaps inner  5
-gaps outer  5
+gaps outer  3
 
 
 exec --no-startup-id picom --config ~/.config/picom/picom.conf
