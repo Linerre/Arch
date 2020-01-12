@@ -1,4 +1,5 @@
 # Installation and Rice
+## Work in Progress
 This repo, *a work in progress*, holds my notes (in the `Notes` dir) about installing and configurating my Arch Linux. The notes have been divided into sections corresponding to the stages during my Arch journey:
 1. [Installation in general](https://github.com/Linerre/Arch/blob/master/Notes/00-installation.md)
 2. [Xorg](https://github.com/Linerre/Arch/blob/master/Notes/01-xorg.md)
@@ -7,10 +8,16 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 5. [network](https://github.com/Linerre/Arch/blob/master/Notes/04-network.md)
 6. [fonts](https://github.com/Linerre/Arch/blob/master/Notes/05-fonts.md)
 7. [partitioning](https://github.com/Linerre/Arch/blob/master/Notes/06-partitioning.md)
-(to be continued)
-- *Somehow neofetch does not work properly when I try to use w3m to get a image displayed*. 
-- brightness adjusting
-- Bash config and study
+
+## To Do
+[ ] *Somehow neofetch does not work properly when I try to use w3m to get a image displayed*. 
+[x] brightness adjusting
+[ ] Bash config and stud
+[ ] Polybar && fonts like nerdfont
+[ ] i3blocks
+[ ] dwm
+[ ] st
+
 
 ## obsolete content
 I will take down the important steps during installing Arch Linux in this repo, such as:
