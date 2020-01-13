@@ -39,7 +39,8 @@ URxvt.scrollWithBuffer: true
 
 ! red
 *.color1: #ab4642
-*.color9: #e06c75
+!*.color9: #e06c75
+*.color9: #bf616A
 
 ! green
 *.color2:  #a1b56c
