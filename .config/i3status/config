@@ -15,6 +15,7 @@ general {
 	color_good = "#50FA7B"
 	color_degraded = "#FFB86C"
 	color_bad = "#FF5555"
+	markup = "pango"
         #interval = 5
 }
 
@@ -52,7 +53,7 @@ battery all {
 }
 
 disk "/" {
-        format = "%avail"
+        format = "🤖%avail"
 }
 
 #load {
@@ -60,12 +61,12 @@ disk "/" {
 #}
 
 memory {
-        format = "%used/%available"
+        format = "<span foreground='#8be9fd'>%used</span>🔁<span foreground='#bd93f9' font-weight='bold'>%available</span>"
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
 }
 
 tztime local {
-        format = "🗓 %b %d [%a] %H:%M%p"
+        format = "🗓 %b %d [%a] %I:%M %p"
 }
 
