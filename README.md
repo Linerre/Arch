@@ -1,4 +1,8 @@
 # Installation and Rice
+
+## Note
+I'm considering shifting from Arch to Artix. This repo is likely to be deprecated, though the content might still be useful.
+
 ## Work in Progress
 This repo, *a work in progress*, holds my notes (in the `Notes` dir) about installing and configurating my Arch Linux. The notes have been divided into sections corresponding to the stages during my Arch journey:
 1. [Installation in general](https://github.com/Linerre/Arch/blob/master/Notes/00-installation.md)
