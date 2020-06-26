@@ -3,6 +3,16 @@
 ## Note
 I'm considering shifting from Arch to Artix. This repo is likely to be deprecated, though the content might still be useful.
 
+## Updates 
+June 26, 2020
+If you happen to find this, I'm glad that you, probably like me, decided to dive into the world of Linux and especially, the Arch.
+Arch switched to `systemd` as its init a few years ago. This I have to admit is NOT a big deal at all to a beginner like me. But `systemd` is also big in size, so I decided to start with other lightweight init systems such as `runit` and `openrc`, perhaps `s6` in the future. 
+
+Yes, you may have guesses it, I switched to [Artix](https://artixlinux.org/).
+Although I changed my distro a little bit, it is still Arch-based. Indeed, I referred to Arch Wiki a lot when installing and configuring. I'm thinking to annotate the installation guide of both Arch and Artix, but it depends on how much time I have for this. 
+
+Anyway, minor, slow updates will be submitted to this repo from time to time. I really hope the content would be (a bit) helpful to whoever is reading it.
+
 ## Work in Progress
 This repo, *a work in progress*, holds my notes (in the `Notes` dir) about installing and configurating my Arch Linux. The notes have been divided into sections corresponding to the stages during my Arch journey:
 1. [Installation in general](https://github.com/Linerre/Arch/blob/master/Notes/00-installation.md)
