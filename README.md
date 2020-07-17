@@ -13,7 +13,7 @@ Although I changed my distro a little bit, it is still Arch-based. Indeed, I ref
 
 Anyway, minor, slow updates will be submitted to this repo from time to time. I really hope the content would be (a bit) helpful to whoever is reading it.
 
-## Work in Progress
+## A Work in Progress
 This repo, *a work in progress*, holds my notes (in the `Notes` dir) about installing and configurating my Arch Linux. The notes have been divided into sections corresponding to the stages during my Arch journey:
 1. [Installation in general](https://github.com/Linerre/Arch/blob/master/Notes/00-installation.md)
 2. [Xorg](https://github.com/Linerre/Arch/blob/master/Notes/01-xorg.md)
