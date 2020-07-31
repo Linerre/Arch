@@ -3,6 +3,8 @@
 ## Note
 I'm considering shifting from Arch to Artix. This repo is likely to be deprecated, though the content might still be useful.
 
+Arch has a great mirrolist, whicn ensures the rolling update. Artix, however, is not working very well under some conditions when the network connetion often fails to get the updates.
+
 ## Updates 
 June 26, 2020
 If you happen to find this, I'm glad that you, probably like me, decided to dive into the world of Linux and especially, the Arch.
