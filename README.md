@@ -35,7 +35,7 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 - [ ] Bash config and stud
 - [ ] Polybar && fonts like nerdfont
 - [ ] i3blocks
-- [ ] dwm
+- [x] dwm
 - [ ] st
 
 
