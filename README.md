@@ -36,7 +36,7 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 - [ ] Polybar && fonts like nerdfont
 - [ ] i3blocks
 - [x] dwm
-- [ ] st
+- [x] st
 
 
 ## obsolete content
