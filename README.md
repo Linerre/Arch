@@ -5,7 +5,7 @@
 
 I am using both Arch and Artix now. 
 
-Arch has a great mirrolist, whicn ensures the rolling update. Artix, however, is not working very well under some conditions when the network connetion often fails to get the updates.
+**Arch has a great mirrolist, whicn ensures the rolling update. Artix, however, is not working very well under some conditions when the network connetion often fails to get the updates.**
 
 Arch KDE for python and hacking learning.
 
