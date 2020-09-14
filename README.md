@@ -1,7 +1,6 @@
 # Installation and Rice
 
-## Note
-~~I'm considering shifting from Arch to Artix. This repo is likely to be deprecated, though the content might still be useful.~~
+## Latest
 
 I am using both Arch and Artix now. 
 
