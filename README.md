@@ -33,7 +33,7 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 - [x] brightness adjusting
 - [ ] Bash config and stud
 - [ ] Polybar && fonts like nerdfont
-- [ ] i3blocks
+- [x] i3blocks
 - [x] dwm
 - [x] st
 
