@@ -49,5 +49,5 @@ I will take down the important steps during installing Arch Linux in this repo, 
 7. Re-partitioning my hard drive so to:
   - move `/home` to another drive
   - delete and or resize the `sawp` partition?
-  - enlarge `/boot` (from 300MB to 1GB?)
+  - ~~enlarge `/boot` (from 300MB to 1GB?)~~
 
