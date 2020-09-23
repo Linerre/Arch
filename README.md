@@ -3,6 +3,7 @@
 ## Latest
 
 I am using both Arch and Artix now. 
+I must start learning C as early as possible.
 
 **Arch has a great mirrolist, whicn ensures the rolling update. Artix, however, is not working very well under some conditions when the network connetion often fails to get the updates.**
 
