@@ -10,6 +10,7 @@ I must start learning C as early as possible.
 Arch KDE for python and hacking learning, say Lisp.
 Void for config learning
 start a new journey
+Keep moving
 
 ## Updates 
 June 26, 2020
