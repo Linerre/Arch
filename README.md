@@ -21,6 +21,8 @@ Arch switched to `systemd` as its init a few years ago. This I have to admit is 
 Yes, you may have guesses it, I switched to [Artix](https://artixlinux.org/).
 Although I changed my distro a little bit, it is still Arch-based. Indeed, I referred to Arch Wiki a lot when installing and configuring. I'm thinking to annotate the installation guide of both Arch and Artix, but it depends on how much time I have for this. 
 
+Windows is catching up in some aspects. 
+
 Anyway, minor, slow updates will be submitted to this repo from time to time. I really hope the content would be (a bit) helpful to whoever is reading it.
 
 ## A Work in Progress
