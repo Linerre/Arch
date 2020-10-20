@@ -31,6 +31,7 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 - [x] i3blocks
 - [x] dwm
 - [x] st
+~~- [Urxvt]~~
 
 
 ## obsolete content
