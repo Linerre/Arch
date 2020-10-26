@@ -5,13 +5,6 @@
 I am using both Arch and Artix now. 
 I must start learning C as early as possible.
 
-~~**Arch has a great mirrolist, whicn ensures the rolling update. Artix, however, is not working very well under some conditions when the network connetion often fails to get the updates.**~~
-I can of course change my mirror site and rely heavily on the great arch mirrors.
-
-~~Arch KDE for python and hacking learning, say Lisp.~~
-Void for config learning
-start a new journey
-Keep moving
 
 ## A Work in Progress
 This repo, *a work in progress*, holds my notes (in the `Notes` dir) about installing and configurating my Arch Linux. The notes have been divided into sections corresponding to the stages during my Arch journey:
