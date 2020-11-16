@@ -11,7 +11,8 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 1. [Installation in general](https://github.com/Linerre/Arch/blob/master/Notes/00-installation.md)
 2. [Xorg](https://github.com/Linerre/Arch/blob/master/Notes/01-xorg.md)
 3. [urxvt](https://github.com/Linerre/Arch/blob/master/Notes/02-urxvt.md)
-4. [i3-gaps](https://github.com/Linerre/Arch/blob/master/Notes/03-i3wm.md)
+
+~~4. [i3-gaps](https://github.com/Linerre/Arch/blob/master/Notes/03-i3wm.md)~~
 5. [network](https://github.com/Linerre/Arch/blob/master/Notes/04-network.md)
 6. [fonts](https://github.com/Linerre/Arch/blob/master/Notes/05-fonts.md)
 7. [partitioning](https://github.com/Linerre/Arch/blob/master/Notes/06-partitioning.md)
