@@ -20,7 +20,7 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 ## To Do
 - [ ] *Somehow neofetch does not work properly when I try to use w3m to get a image displayed*. 
 - [x] brightness adjusting
-- [x] Bash config and stud
+- ~~[x] Bash config and stud~~
 - [x] dwm
 - [x] st
 
