@@ -23,6 +23,7 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 - ~~[x] Bash config and stud~~
 - [x] dwm
 - [x] st
+- [ ] KDE
 
 
 ## obsolete content
