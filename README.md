@@ -24,6 +24,7 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 - [x] dwm
 - [x] st
 - [ ] KDE
+- [ ] Emacs
 
 
 ## obsolete content
