@@ -10,7 +10,7 @@ I must start learning C as early as possible.
 This repo, *a work in progress*, holds my notes (in the `Notes` dir) about installing and configurating my Arch Linux. The notes have been divided into sections corresponding to the stages during my Arch journey:
 1. [Installation in general](https://github.com/Linerre/Arch/blob/master/Notes/00-installation.md)
 2. [Xorg](https://github.com/Linerre/Arch/blob/master/Notes/01-xorg.md)
-3. [urxvt](https://github.com/Linerre/Arch/blob/master/Notes/02-urxvt.md)
+3. ~~[urxvt](https://github.com/Linerre/Arch/blob/master/Notes/02-urxvt.md)~~
 
 4. ~~[i3-gaps](https://github.com/Linerre/Arch/blob/master/Notes/03-i3wm.md)~~
 5. [network](https://github.com/Linerre/Arch/blob/master/Notes/04-network.md)
