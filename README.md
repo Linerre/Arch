@@ -2,7 +2,7 @@
 
 ## Latest
 
-I am using both Arch and Artix now. 
+I am using both Manjaro and Artix now. 
 I must start learning C as early as possible.
 
 
