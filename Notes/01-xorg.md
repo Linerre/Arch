@@ -1,9 +1,9 @@
 # Xorg
 **Xorg** is basically an implementation of **X Window System**, usually referred to as **X**. But do not get it confused about its name:
-1. It is *neither* a Desktop Environment (DE, for example, GNOME, KDE) *nor* an Operating System (say Windows, macOS). 
-2. Instead, it is the very system that controls your input devices such as the keyborad & mourse and output device such as the screen.
+1. It is *neither* a Desktop Environment (DE, for example, like GNOME or KDE), *nor* is it an Operating System (say Windows, macOS). 
+2. Instead, it is the very system that controls your input devices such as the keyborad & mourse and output devices such as the screen.
 
-## Pre-Xorg
+## Before Xorg is started
 When X is not started, a user is in a **Console** after login: only white-color text can be typed onto the black-background screen as commands, and the machine may or may not output text to the screen depending on what commands the user uses. Yeap, very like a **Terminal Emulator** in full-screen mode, but it is not. And in this situation a mouse cursor will *NOT* be supported. The reason is very simple: A mouse is a type of input device that needs support from X-server, see [this great illustration](https://en.wikibooks.org/wiki/Guide_to_X11/Introduction#/media/File:X_client_server_example.svg). So next step is to start X if the user wants to fully employ their common input devices such as keyboard, mouse, screen (full-color).
 
 ## Start Xorg
