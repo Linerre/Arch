@@ -2,8 +2,7 @@
 
 ## Latest
 
-I am using both Manjaro and Artix now. 
-I must start learning C as early as possible.
+Wanna switch from Intel to AMD: Thinkpad X395 AMD Ryzen R7 3700U/3500U
 
 
 ## A Work in Progress
