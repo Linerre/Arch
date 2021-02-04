@@ -4,6 +4,8 @@
 
 Wanna switch from Intel to AMD: Thinkpad X395 AMD Ryzen R7 3700U/3500U
 
+Baught it and this time stick to Arch!
+
 
 ## A Work in Progress
 This repo, *a work in progress*, holds my notes (in the `Notes` dir) about installing and configurating my Arch Linux. The notes have been divided into sections corresponding to the stages during my Arch journey:
