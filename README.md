@@ -26,7 +26,8 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 - [x] dwm
 - [x] st
 - [ ] Awesome
-- [ ] Python versons
+- [ ] Python versions
+- [ ] Nodejs versions
 ~~- [x] KDE~~
 - [x] Emacs
 
