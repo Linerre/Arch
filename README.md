@@ -8,6 +8,8 @@ Baught it and this time stick to Arch!
 
 x395 seems to be hotter than expected
 
+Learn to built stuff from source code.
+
 
 ## A Work in Progress
 This repo, *a work in progress*, holds my notes (in the `Notes` dir) about installing and configurating my Arch Linux. The notes have been divided into sections corresponding to the stages during my Arch journey:
