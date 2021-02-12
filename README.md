@@ -10,6 +10,13 @@ x395 seems to be hotter than expected
 
 Learn to built stuff from source code.
 
+## Machine Info
+Laptop: 	Thinkpad X395
+CPU:		AMD Ryzen Pro 5 3500U
+GPU:		AMD ATI
+Disk:		512GB SSD Nvem
+RAM:		16GB
+Display:	1920x1280
 
 ## A Work in Progress
 This repo, *a work in progress*, holds my notes (in the `Notes` dir) about installing and configurating my Arch Linux. The notes have been divided into sections corresponding to the stages during my Arch journey:
