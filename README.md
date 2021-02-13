@@ -32,6 +32,9 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 ## To Do
 - [x] Set GRUB_TIMEOUT to 0s
 - [x] brightness adjusting
+- [ ] Get function keys to work
+- [ ] Get battery info displayed on the upper right corner
+- [ ] constrain CPU power suage.
 - ~~[x] Bash config and stud~~
 - [x] dwm
 - [x] st
