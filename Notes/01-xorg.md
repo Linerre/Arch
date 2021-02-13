@@ -21,8 +21,10 @@ As a newbie, unfamiliar with `useradd` and `groupadd` commands, I was thinking t
 
 When I got the X220, installed Arch again, I felt more comfortable with adding and using the normal user account I created. Then next step would be get everything I have on X230 as a `root` user, the wallpaper, the urxvt, the i3-gaps wm and so on, set up exactly the same on X220. Yet the first very problem was **I could not start X by `startx` as the user**. 
 
+**Pay attention to what you put in `/etc/X11/xorg.conf.d/`, anything wrong there could lead to a failure to start up Xorg**.
+The `xorg.conf(5)` explains in detail almost everything about how it could be configure properly.
 #### Solution
-After about 1 hour of searching, I found [this approach](https://bbs.archlinux.org/viewtopic.php?pid=1697227#p1697227) from Arch Forum really works:
+After about 1 hour of searching, I found [this approach](https://bbs.archlinux.org/viewtopic.php?pid=1697227#p1697227) from Arch Forum that really works:
 
 1. read
 https://wiki.archlinux.org/index.php/intel_graphics
