@@ -31,3 +31,10 @@ Finally, use `dhcpcd to allocate an IP address:
 `# dhcpcd wlp1s0`
 
 All the steps above could be put into a shell script under the `root`'s home direcotry.
+
+## iwd issue
+`iwd` will change the wifi interface name! In my case, it renamed `wlp1s0` to `wlan0` without letting me know!
+
+It is written by Intel according to Arch Wiki, and runs interactively (not like normal command line programs).
+
+Uninstalling `iwd` will reset anything it changed back to *normal*.
