@@ -2,7 +2,7 @@
 
 ## Latest
 
-Wanna switch from Intel to AMD: Thinkpad X395 AMD Ryzen R7 3700U/3500U
+ from Intel to AMD: Thinkpad X395 AMD Ryzen R7 3700U/3500U
 
 Baught it and this time stick to Arch!
 
