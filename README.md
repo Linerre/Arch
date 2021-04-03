@@ -2,9 +2,7 @@
 
 ## Latest
 
- from Intel to AMD: Thinkpad X395 AMD Ryzen R7 3700U/3500U
-
-Baught it and this time stick to Arch!
+from Intel to AMD: Thinkpad X395 AMD Ryzen R7 3700U/3500U
 
 x395 seems to be hotter than expected
 
@@ -41,8 +39,10 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 - [x] dwm
 - [x] st
 - [ ] Awesome
-- [ ] Python versions
-- [ ] Nodejs versions
+- [ ] Kitty
+- [ ] Alacritty
+- [x] Python versions
+- [x] Nodejs versions
 ~~- [x] KDE~~
 - [x] Emacs
 
