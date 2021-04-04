@@ -1,13 +1,12 @@
 # Installation and Rice
 
-## Latest
+## Purposes
+That I entered the world of Arch Linux was largely inspired by Luke Smith's videos on
+Linux, Vim, and Latex. 
 
-from Intel to AMD: Thinkpad X395 AMD Ryzen R7 3700U/3500U
-
-x395 seems to be hotter than expected
-
-Learn to built stuff from source code.
-
+I want to rely on this Arch Linux for three purposes:
+1. Learning Linux. There is no doubt that Arch will serve this purpose very well.
+2. Trying out new features. 
 ## Machine Info
 Laptop: 	Thinkpad X395
 CPU:		AMD Ryzen Pro 5 3500U
