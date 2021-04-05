@@ -7,6 +7,9 @@ Linux, Vim, and Latex.
 I want to rely on this Arch Linux for three purposes:
 1. Learning Linux. There is no doubt that Arch will serve this purpose very well.
 2. Trying out new features. 
+3. Switching to Linux as my daily driver.
+4. Moving towards a more independent lifestyle.
+
 ## Machine Info
 Laptop: 	Thinkpad X395
 CPU:		AMD Ryzen Pro 5 3500U
