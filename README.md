@@ -4,7 +4,7 @@
 That I entered the world of Arch Linux was largely inspired by Luke Smith's videos on
 Linux, Vim, and Latex. 
 
-I want to rely on this Arch Linux for three purposes:
+I want to rely on this Arch Linux for four purposes:
 1. Learning Linux. There is no doubt that Arch will serve this purpose very well.
 2. Trying out new features. 
 3. Switching to Linux as my daily driver.
