@@ -6,8 +6,8 @@ Linux, Vim, and LaTeX.
 
 I want to benefit from Arch Linux because:
 1. Learning Linux. There is no doubt that Arch will serve this purpose very well.
-2. Trying out new features. 
-3. Switching to Linux as my daily driver.
+2. ~~Trying out new features.~~ (Should explain what kind of new features?) 
+3. Switching to Linux and using it as my daily driver.
 4. Moving towards a more independent lifestyle.
 
 ## Machine Info
