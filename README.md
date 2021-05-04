@@ -11,10 +11,10 @@ I want to benefit from Arch Linux because:
 4. Moving towards a more independent lifestyle.
 
 ## Machine Info
-Laptop: 	Thinkpad X395
-CPU:		AMD Ryzen Pro 5 3500U
-GPU:		AMD ATI
-Disk:		512GB SSD Nvem
+Laptop: 	Thinkpad T490
+CPU:		Intel i5 8265U
+GPU:		Intel Graphics
+Disk:		256GB SSD Nvem
 RAM:		16GB
 Display:	1920x1280
 
