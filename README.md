@@ -2,9 +2,9 @@
 
 ## Purposes
 That I entered the world of Arch Linux was largely inspired by Luke Smith's videos on
-Linux, Vim, and Latex. 
+Linux, Vim, and LaTeX. 
 
-I want to rely on this Arch Linux for four purposes:
+I want to benefit from Arch Linux because:
 1. Learning Linux. There is no doubt that Arch will serve this purpose very well.
 2. Trying out new features. 
 3. Switching to Linux as my daily driver.
@@ -47,6 +47,7 @@ This repo, *a work in progress*, holds my notes (in the `Notes` dir) about insta
 - [x] Nodejs versions
 ~~- [x] KDE~~
 - [x] Emacs
+- [ ] Btrfs
 
 
 ## obsolete content
