@@ -52,7 +52,7 @@ This repo is *a work in progress*; it holds my notes (in the `Notes` dir) about 
 
 
 ## obsolete content
-I will take down the important steps during installing Arch Linux in this repo, such as:
+I will take notes on the important steps during installing Arch Linux in this repo, such as:
 1. Installation;
 2. Connecting to WiFi
 3. Set up a normal user account for myself
