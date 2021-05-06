@@ -46,7 +46,7 @@ This repo is *a work in progress*; it holds my notes (in the `Notes` dir) about 
 - [ ] Alacritty
 - [x] Python versions
 - [x] Nodejs versions
-~~- [x] KDE~~
+- [.] KDE
 - [x] Emacs
 - [ ] Btrfs
 
