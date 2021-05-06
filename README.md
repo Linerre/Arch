@@ -5,18 +5,19 @@ That I entered the world of Arch Linux was largely inspired by Luke Smith's vide
 Linux, Vim, and LaTeX. 
 
 I want to benefit from Arch Linux because:
-1. Learning Linux. There is no doubt that Arch will serve this purpose very well.
+1. it is a good starting point for learning linux.
 2. ~~Trying out new features.~~ (Should explain what kind of new features?) 
-3. Switching to Linux and using it as my daily driver.
-4. Moving towards a more independent lifestyle.
+3. I'd like to switch to Linux and use it as my daily driver.
+4. I'd like to move towards a more independent lifestyle.
 
 ## Machine Info
-Laptop: 	Thinkpad T490
-CPU:		Intel i5 8265U
-GPU:		Intel Graphics Card
-Disk:		256GB SSD Nvem
-RAM:		16GB
-Display:	1920x1280
+|Laptop|Thinkpad T490|
+|--|--|
+|CPU|Intel i5 8265U|
+|GPU|Intel Graphics Card|
+|Disk|256GB Nvem SSD|
+|RAM|Crucial 8GB x 2|
+|Display|1920x1280|
 
 ## A Work in Progress
 This repo, *a work in progress*, holds my notes (in the `Notes` dir) about installing and configurating my Arch Linux. The notes have been divided into the following sections:
