@@ -20,7 +20,7 @@ I want to benefit from Arch Linux because:
 |Display|1920x1280|
 
 ## A Work in Progress
-This repo, *a work in progress*, holds my notes (in the `Notes` dir) about installing and configurating my Arch Linux. The notes have been divided into the following sections:
+This repo is *a work in progress*; it holds my notes (in the `Notes` dir) about installing and configurating my Arch Linux. The notes have been divided into the following sections:
 1. [Installation in general](https://github.com/Linerre/Arch/blob/master/Notes/00-installation.md)
 2. [Xorg](https://github.com/Linerre/Arch/blob/master/Notes/01-xorg.md)
 3. ~~[urxvt](https://github.com/Linerre/Arch/blob/master/Notes/02-urxvt.md)~~
