@@ -38,7 +38,7 @@ This repo is *a work in progress*; it holds my notes (in the `Notes` dir) about 
   - [ ] Get function keys to work
 - [ ] Get battery info displayed on the upper right corner
 - [ ] constrain CPU power suage.
-- ~~[x] Bash config and stud~~
+- [x] ~~Bash config and stud~~
 - [x] dwm
 - [x] st
 - [ ] Awesome
@@ -46,7 +46,7 @@ This repo is *a work in progress*; it holds my notes (in the `Notes` dir) about 
 - [ ] Alacritty
 - [x] Python versions
 - [x] Nodejs versions
-- [.] KDE
+- [X] KDE
 - [x] Emacs
 - [ ] Btrfs
 
