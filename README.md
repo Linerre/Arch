@@ -42,7 +42,7 @@ This repo is *a work in progress*; it holds my notes (in the `Notes` dir) about 
 - [x] dwm
 - [x] st
 - [ ] Awesome
-- [ ] Kitty
+- [ ] ~~Kitty~~
 - [ ] Alacritty
 - [x] Python versions
 - [x] Nodejs versions
