@@ -35,11 +35,14 @@ This repo is *a work in progress*; it holds my notes (in the `Notes` dir) about 
 - [x] brightness adjusting
 - [ ] Keyboard settings
   - [x] Swap Escape with Cap Lock or make Cap an additional Escape
-  - [ ] Get function keys to work
-- [ ] Get battery info displayed on the upper right corner
+  - [x] Get function keys to work
+- [ ] ~~Get battery info displayed on the upper right corner~~
 - [ ] constrain CPU power suage.
 - [x] ~~Bash config and stud~~
 - [x] dwm
+  - [x] Battery info
+  - [x] Wifi info
+  - [x] Volume
 - [x] st
 - [ ] Awesome
 - [ ] ~~Kitty~~
