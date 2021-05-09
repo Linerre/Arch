@@ -5,7 +5,7 @@ That I entered the world of Arch Linux was largely inspired by Luke Smith's vide
 Linux, Vim, and LaTeX. 
 
 I want to benefit from Arch Linux because:
-1. it is a good starting point for learning linux.
+1. it is a good starting point for learning Linux.
 2. ~~Trying out new features.~~ (Should explain what kind of new features?) 
 3. I'd like to switch to Linux and use it as my daily driver.
 4. I'd like to move towards a more independent lifestyle.
@@ -37,7 +37,7 @@ This repo is *a work in progress*; it holds my notes (in the `Notes` dir) about 
   - [x] Swap Escape with Cap Lock or make Cap an additional Escape
   - [x] Get function keys to work
 - [ ] ~~Get battery info displayed on the upper right corner~~
-- [ ] constrain CPU power suage.
+- [ ] ~~constrain CPU power suage.~~
 - [x] ~~Bash config and stud~~
 - [x] dwm
   - [x] Battery info
