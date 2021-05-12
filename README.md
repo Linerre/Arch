@@ -17,7 +17,7 @@ I want to benefit from Arch Linux because:
 |GPU|Intel Graphics Card|
 |Disk|256GB Nvem SSD|
 |RAM|Crucial 8GB x 2|
-|Display|1920x1280|
+|Display|1920 x 1280|
 
 ## A Work in Progress
 This repo is *a work in progress*; it holds my notes (in the `Notes` dir) about installing and configurating my Arch Linux. The notes have been divided into the following sections:
