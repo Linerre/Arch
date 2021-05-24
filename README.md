@@ -46,12 +46,12 @@ This repo is *a work in progress*; it holds my notes (in the `Notes` dir) about 
 - [x] st
 - [ ] Awesome
 - [ ] ~~Kitty~~
-- [ ] Alacritty
+- [X] Alacritty
 - [x] Python versions
 - [x] Nodejs versions
 - [X] KDE
 - [x] Emacs
-- [ ] Btrfs
+- [X] Btrfs
 
 
 ## obsolete content
