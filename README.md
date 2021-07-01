@@ -64,6 +64,6 @@ I will take notes on the important steps during installing Arch Linux in this re
 6. Learning `pacman`
 7. Re-partitioning my hard drive so to:
   - move `/home` to another drive
-  - delete and or resize the `sawp` partition?
+  - ~~delete and or resize the `sawp` partition?~~
   - ~~enlarge `/boot` (from 300MB to 1GB?)~~
 
