@@ -44,7 +44,7 @@ This repo is *a work in progress*; it holds my notes (in the `Notes` dir) about 
   - [x] Wifi info
   - [x] Volume
 - [x] st
-- [ ] Awesome
+- [x] Awesome
 - [ ] ~~Kitty~~
 - [X] Alacritty
 - [x] Python versions
