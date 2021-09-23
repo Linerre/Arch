@@ -1,5 +1,5 @@
 # Xorg
-**Xorg** is basically an implementation of **X Window System**, usually referred to as **X**. But do not get it confused about its name:
+**Xorg** is basically an implementation of **X Window System**, usually referred to as **X**. But do not get confused by its name:
 1. It is *neither* a Desktop Environment (DE, for example, like GNOME or KDE), *nor* is it an Operating System (say Windows, macOS). 
 2. Instead, it is the very system that controls your input devices such as the keyborad & mourse and output devices such as the screen.
 
