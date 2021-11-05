@@ -31,7 +31,7 @@ This repo is *a work in progress*; it holds my notes (in the `Notes` dir) about 
 
 ## To Do
 - [x] Set GRUB_TIMEOUT to 0s
-- [x] brightness adjusting
+- [x] brightness adjusting (xbacklight only works with Intel Graphic Cards)
 - [ ] Keyboard settings
   - [x] Swap Escape with Cap Lock or make Cap an additional Escape
   - [x] Get function keys to work
